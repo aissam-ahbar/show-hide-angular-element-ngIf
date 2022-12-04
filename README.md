@@ -1,7 +1,10 @@
-# SideHideAngularDemo
+# ngIf directive to show or hide template.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
+A structural directive that conditionally show or hide
+an element (for example div, component, ...).
 
-## Development server
+# Setup \*ngIf=boolean
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- ngIf\* (true) = Angular renders the template provided.
+
+- ngIf\* (false or null) = Angular hides the template.
